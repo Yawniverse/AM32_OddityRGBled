@@ -1743,7 +1743,7 @@ int main(void)
     send_LED_RGB(125, 0, 0);
 #endif
 #ifdef USE_RGB_LED
-     setIndividualRGBLed(1,0,0);
+     setIndividualRGBLed(0,1,0);
 #endif
 
 #ifdef USE_CRSF_INPUT
